@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29403.142
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalShop", "AnimalShop\AnimalShop.csproj", "{E318D369-5230-4BE0-8812-56E2AAE9D132}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D25B046-0CC9-4CFF-87AC-A15F95587FEB} = {5D25B046-0CC9-4CFF-87AC-A15F95587FEB}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainModel", "DomainModel\DomainModel.csproj", "{5D25B046-0CC9-4CFF-87AC-A15F95587FEB}"
 EndProject
