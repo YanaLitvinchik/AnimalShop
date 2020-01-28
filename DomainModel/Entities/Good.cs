@@ -1,4 +1,6 @@
-﻿namespace DomainModel.Entities
+﻿using System;
+
+namespace DomainModel.Entities
 {
     public class Good
     {
@@ -14,6 +16,9 @@
 
         public double Rating { get; set; }
 
+        public string ImgName { get; set; }
+
+        public DateTime DateOfBirth { get; set; }
         public int? ManufacturerId { get; set; }
         public Manufacturer Manufacturer { get; set; }
 
